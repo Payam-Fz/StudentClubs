@@ -1,0 +1,47 @@
+body {
+    background: linear-gradient(to bottom,  ivory 0%, dimgrey 100%);
+    font-family: 'Courier New', Courier, monospace;
+    min-height: calc(100vh - 25px);
+}
+
+table, th, td {
+    border:solid;
+    margin: 15px;
+    border-collapse: collapse;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+table {
+    margin: 50px;
+    border-style: double;
+    border-width: thick;
+    background-color: ivory;
+}
+
+
+
+th {
+    background-color: dimgrey;
+    color: white;
+    border: double black thick;
+    padding: 20px;
+}
+
+
+                                                        /* Text */
+
+.noticeText {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+
+.goodText {
+    color: green;
+    font-weight: bold;
+}
+
+.badText {
+    color: red;
+}

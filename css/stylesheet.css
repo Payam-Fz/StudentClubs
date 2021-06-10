@@ -1,0 +1,129 @@
+﻿*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom,  ivory 0%, darkslategrey 100%);
+    font-family: 'Courier New', Courier, monospace;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 2%;
+    height: 300px;
+}
+
+#clubImage {
+    margin-left: -70px;
+    width:50%;
+    max-width: 400px;
+}
+
+main{
+    background: linear-gradient(to bottom,  ivory 0%, darkred 120%);
+    margin: 0 auto;
+    padding: 30px, 20px;
+    min-height: calc(100vh - 355px);
+}
+
+footer{
+    padding: 10px;
+    background-color: rgba(139, 0, 0, 0.830);
+    color: ivory;
+    font-size: small;
+    height: 35px;
+}
+
+                                                        /* Form */
+
+fieldset{
+    margin: 20px 30px;
+    margin-bottom: 0px;
+    border-style: double;
+    border-width: thick;
+    border-color: black;
+    min-width: 710px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+                                                        /* Tables */
+
+table, td, th {
+    padding: 0px 10px;
+    text-align: right;
+}
+
+td {
+    height:50px;
+}
+
+
+                                                        /* Buttons */
+
+.manipulationButton {
+    width :140px;
+}
+
+
+.button {
+    border: solid;
+    background-color: rgb(255, 202, 105);
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.goodButton{
+    background-color: lightgreen;
+}
+
+.badButton{
+    background-color: rgb(255, 79, 79);
+}
+
+                                                        /* Text */
+
+.title {
+    font-size: large;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.FormTitle {
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.noticeText {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+
+.goodText {
+    color: green;
+    font-weight: bold;
+}
+
+.badText {
+    color: red;
+}
+
+
+
+.status {
+    font-weight: bold;
+}

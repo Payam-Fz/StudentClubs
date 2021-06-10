@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "UTF-8">
+        <title>SelectRecord</title>
+        <link rel="stylesheet" type="text/css" href = "../css/stylesheet.css"/>
+    </head>
+    <body>
+        <br/>
+        <p style="margin-left:40px">Results will be shown in a new window.</p>
+        <form method="post" target="_blank" action="../pages/viewTable.php"> 
+        <fieldset>
+            <!--select all-->
+            <legend class="FormTitle">Show all Clubs</legend>
+            <span>All clubs: </span>
+            <input type="submit" name="SelectAll" class="button"/>
+        </fieldset>
+        <fieldset>
+            <!--select based on name-->
+            <legend class="FormTitle">Filter by club name</legend>
+            <br/>
+            <label>Name of the club to be viewed: </label><input type="text" name="ClubName"/>
+            <input type="submit" name="SelectName" class="button"/>
+        </fieldset>
+        <fieldset>
+            <!--select based on leader-->
+            <legend class="FormTitle">Filter by leader's StudentID</legend>
+            <br/>
+            <label>StudentId of the club's leader: </label><input type="text" name="Leader_StudentID"/>
+            <input type="submit" name="SelectLID" class="button"/>
+        </fieldset>
+        <fieldset>
+            <!--select based on Rating-->
+            <legend class="FormTitle">Filter by Rating</legend>
+            <br/>
+            <label>Minimum: </label><input type="range" name="Min_Rate" min="0" max="100"/>
+            <br/>
+            <label>Maximum: </label><input type="range" name="Max_Rate" min="0" max="100"/>
+            <input type="submit" name="SelectRating" class="button"/>
+        </fieldset>
+        <fieldset>
+            <!--select based on Relevance-->
+            <legend class="FormTitle">Filter by Relevance</legend>
+            <p>(Search for similar words in description of the clubs)</p>
+            <br/>
+            <label>Club's field: </label><input type="text" name="DescriptionWord"/>
+            <input type="submit" name="SelectRelevance" class="button"/>
+        </fieldset>
+        </form>
+        <br/>
+        <br/>
+        <a class="button" href="../index.html" style="margin-left: 40px;">Homepage</a>
+        
+        
+        
+
+    </body>
+</html>
